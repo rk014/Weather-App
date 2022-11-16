@@ -5,45 +5,40 @@
 }
 body{
     background-image: url('https://images.hdqwalls.com/download/beautiful-beach-sunset-4k-5r-1336x768.jpg');
-    height: 150%;
-    width: 90%;
+    height: 1000%;
+    width: 100%;
+    padding: 0.5px 1px;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: top center;
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
-    display: block;
-    justify-items: center;
 }
 
 .app-main{
     width: 60vh;
     height: 80vh;
-    margin:   11vh auto;
+    margin:   15vh auto;
     padding: 5vh;
-    display: block;
-    /* background-color: rgb(11, 152, 194); */
-    
-background: linear-gradient(to right, #ffffff84, #6dd4fa70, #297fb976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+background: linear-gradient(to right, #ffffff84, #6dd4fa70, #297fb976);
     text-align: center;
     border-radius: 5px;
     
 }
 
 .app-main *{
-margin-bottom: auto;
+/* margin-bottom: auto; */
 border-radius: 20px;
 
 }
 
 #Input-box{
     width: 90%;
-    height: 40px;
+    height: 50px;
     background-color: rgb(255,255,255,0.6);
     border: none;
     outline: none;
-    font: size 5rem;
+    font-size: medium;
     text-align: center;
     border-radius: 5px;
 }
@@ -53,9 +48,9 @@ border-radius: 20px;
 }
 
 .Weather-body{
-    display: none;
+    /* display: none; */
     color: hsl(0, 0%, 99%);
-    margin: 28px;
+    margin: 10px;
     padding: 15px;
     line-height: 2rem ;
     border-radius:10px ;
@@ -63,7 +58,16 @@ border-radius: 20px;
     opacity: 1.2;
     height: 60vh;
    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-
+    /* background-image: url('https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2019/04/thumb_720_450_seasons_and_weather.jpg'); */
+}
+.Weathertype{
+    width: 100%;
+    height: 150px;
+    /* margin-bottom: .5px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:8vh ;
+    /* background-image: url('images/cloud.png'); */
 }
 
 .location-details{
@@ -79,13 +83,48 @@ text-shadow:2px 4px rgb(231, 219, 214) ;
 }
 
 .min-max, .Weather{
-    font-size:15pt;
+    font-family: 'Aclonica';
+    font-size:17pt;
     font-weight: 600;
+    color: rgb(65, 54, 231);
 }
-.logo {
-    background: url("https://wallpapercave.com/wp/qQa5Pd7.jpg");
-    padding: 0px;
-    margin: 0px;
-    width: 150px;
-    height: 50px;
+.navbar {
+    display: none;
+    padding: 25px 250px;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    background: rgba(255,255,255,0.4);
+    text-decoration: none;
+    /* color: rgb(251, 159, 84); */
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    text-align: center;
+    font-size: larger;
   }
+  #heading {
+    font-family: 'Merienda',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+  }
+ .navbar ul {
+list-style: none;
+margin: 0;
+text-align: right;
+  }
+ .navbar li{
+    display: inline-block;
+    padding: 0px 25px;
+  }
+  .navbar a:hover{
+    background: #dedfe6;
+  }
+  .dev{
+    display: flex;
+    text-align: right;
+    background-color: red;
+  }
+  

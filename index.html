@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+
     <title>Weather App</title>
 </head>
 <body>
-    <div class="logo">
-        
-    </div>
+    <nav>
+        <div class="navbar">
+            <p id="heading">Weather Report</p>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="app-main">
         <div class="serchInputBtn">
-            <input type="text" class ="Input-box" id="Input-box" placeholder="Enter City  " autocomplete="off">
+            <input type="text" class ="Input-box" id="Input-box" placeholder="Enter City Name " autocomplete="off">
         </div>
         <div class="Weather-body">
           <div class="location-details">
@@ -25,11 +35,14 @@
             </div>
             <div class="min-max" id="min-max">32&deg;c (min) / 34&deg;c (max)</div>
             <div class="Weather" id="Weather">Clear</div>
-            <div class="img" id="img"></div>
+            <div class="Weathertype" id ="type"> </div>
+            
             
           </div>
         </div>
+        
     </div>
     <script src="main.js"></script>
+    <div class="div"><h1>hi</h1></div>
 </body>
 </html>

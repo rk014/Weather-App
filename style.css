@@ -84,9 +84,9 @@ text-shadow:2px 4px rgb(231, 219, 214) ;
 
 .min-max, .Weather{
     font-family: 'Aclonica';
-    font-size:17pt;
-    font-weight: 600;
-    color: rgb(65, 54, 231);
+   font-size:18pt;
+    font-weight: 900;
+    color: rgb(250, 253, 252);
 }
 .navbar {
     display: none;

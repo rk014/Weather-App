@@ -10,6 +10,7 @@ const weatherApi = {
 
 const serchInputBox = document.querySelector(".Input-box")
 serchInputBox.addEventListener('keypress' , (event)=>{
+    //keycode for enter button is 13
     if(event.keyCode === 13) {
         document.querySelector('.Weather-body').style.display='block';
         console.log(serchInputBox.value);
@@ -39,6 +40,29 @@ let minMax = document.getElementById('min-max');
     weatherType.innerText =`${weather.weather[0].main}`
 
     document.getElementById('date').innerText = dateDispaly(new Date());
+
+    if(weatherType.textContent==='Cloud'){
+        document.getElementById('type').style.backgroundImage="url('images/cloud.png')";
+    }
+    else if(weatherType.textContent==='Haze'){
+        document.getElementById('type').style.backgroundImage="url('images/haze.png')";
+    }
+    else if(weatherType.textContent==='Clear'){
+        document.getElementById('type').style.backgroundImage="url('images/clear.png')"
+    }
+    else if(weatherType.textContent==='Sunny'){
+        document.getElementById('type').style.backgroundImage="url('images/sunny.jpg')";
+    }
+    else if(weatherType.textContent==='Thunderstorm'){
+        document.getElementById('type').style.backgroundImage="url('images/thunderstorm.jpg')";
+    }
+    else if(weatherType.textContent==='Rain'){
+        document.getElementById('type').style.backgroundImage="url('images/rain.png')";
+    }
+    else if(weatherType.textContent==='Snow'){
+        document.getElementById('type').style.backgroundImage="url('images/snow.jpg')";
+    }
+    else{document.getElementById('type').style.backgroundImage="url('images/sunny.jpg')";}
 }
 function dateDispaly(newDAtwe){
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', "Thursday", "Friday", "Saturday"];

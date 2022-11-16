@@ -42,27 +42,27 @@ let minMax = document.getElementById('min-max');
     document.getElementById('date').innerText = dateDispaly(new Date());
 
     if(weatherType.textContent==='Cloud'){
-        document.getElementById('type').style.backgroundImage="url('images/cloud.png')";
+        document.getElementById('type').style.backgroundImage="url('cloud.png')";
     }
     else if(weatherType.textContent==='Haze'){
-        document.getElementById('type').style.backgroundImage="url('images/haze.png')";
+        document.getElementById('type').style.backgroundImage="url('haze.png')";
     }
     else if(weatherType.textContent==='Clear'){
-        document.getElementById('type').style.backgroundImage="url('images/clear.png')"
+        document.getElementById('type').style.backgroundImage="url('clear.png')"
     }
     else if(weatherType.textContent==='Sunny'){
-        document.getElementById('type').style.backgroundImage="url('images/sunny.jpg')";
+        document.getElementById('type').style.backgroundImage="url('sunny.jpg')";
     }
     else if(weatherType.textContent==='Thunderstorm'){
-        document.getElementById('type').style.backgroundImage="url('images/thunderstorm.jpg')";
+        document.getElementById('type').style.backgroundImage="url('thunderstorm.jpg')";
     }
     else if(weatherType.textContent==='Rain'){
-        document.getElementById('type').style.backgroundImage="url('images/rain.png')";
+        document.getElementById('type').style.backgroundImage="url('rain.png')";
     }
     else if(weatherType.textContent==='Snow'){
-        document.getElementById('type').style.backgroundImage="url('images/snow.jpg')";
+        document.getElementById('type').style.backgroundImage="url('snow.jpg')";
     }
-    else{document.getElementById('type').style.backgroundImage="url('images/sunny.jpg')";}
+    else{document.getElementById('type').style.backgroundImage="url('sunny.jpg')";}
 }
 function dateDispaly(newDAtwe){
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', "Thursday", "Friday", "Saturday"];

@@ -50,7 +50,7 @@ border-radius: 20px;
 .Weather-body{
     /* display: none; */
     color: hsl(0, 0%, 99%);
-    margin: 10px;
+    margin: 30px;
     padding: 15px;
     line-height: 2rem ;
     border-radius:10px ;
@@ -62,7 +62,7 @@ border-radius: 20px;
 }
 .Weathertype{
     width: 100%;
-    height: 150px;
+    height: 120px;
     /* margin-bottom: .5px; */
     background-size: contain;
     background-repeat: no-repeat;
